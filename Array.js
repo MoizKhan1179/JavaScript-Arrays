@@ -161,7 +161,7 @@
 // console.log("before : " + carArrays)
 
 // let carArrays2= ["Supra","Rx7","SkyLine"]
-let carArrays3= ["Supra22","Rx7V12","SkyLine1970"]
+// let carArrays3= ["Supra22","Rx7V12","SkyLine1970"]
 // // let carArrays4 = ["Honda","Toyota","Bugatti","Lamborghini","Mazda"]
 
 // // carArrays = carArrays2.concat(carArrays3,carArrays4)
@@ -172,9 +172,9 @@ let carArrays3= ["Supra22","Rx7V12","SkyLine1970"]
 // // *****JOIN*****
 
 
-let Arrays3 = carArrays3.join("-")
+// let Arrays3 = carArrays3.join("-")
 
-console.log(Arrays3)
+// console.log(Arrays3)
 
 
 
@@ -192,12 +192,24 @@ console.log(Arrays3)
 
 
 
+// ********InDexOf Array********
+
+// let car= ["Supra","Rx7","SkyLine","Cheverolette","Supra","Charger","Viper"];
+// console.log(car)
+
+// console.log(car.indexOf("Supra",1));
+
+// console.log(car.indexOf("Supra"));
 
 
 
+// ********LastInDexOf Array********
 
+let cars= ["Supra","Rx7","SkyLine","Cheverolette","Supra","Charger","Viper"];
 
+let car = cars.lastindexOf("Supra")
+console.log(car)
 
+// console.log(car.lastindexOf("Supra"));
 
-
-
+// console.log(car.lastindexOf("Supra"));
