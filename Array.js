@@ -205,11 +205,71 @@
 
 // ********LastInDexOf Array********
 
-let cars= ["Supra","Rx7","SkyLine","Cheverolette","Supra","Charger","Viper"];
+// let cars= ["Supra","Rx7","SkyLine","Cheverolette","Supra","Charger","Viper"];
 
-let car = cars.lastindexOf("Supra")
-console.log(car)
+// console.log(cars.lastIndexOf("Supra"));
 
-// console.log(car.lastindexOf("Supra"));
 
-// console.log(car.lastindexOf("Supra"));
+
+// ***********toString*************  <Array ko String ma Convert kre ga>;
+
+
+// let cars= ["Supra","Rx7","SkyLine","Cheverolette","Supra","Charger","Viper"];
+// console.log(cars)
+// console.log(cars.toString())
+
+// let a= cars.toString();
+// console.log(a)
+
+
+
+// ******Fill******  <Array ko replace krde ga>;
+
+// let cars= ["Supra","Rx7","SkyLine","Cheverolette","Supra","Charger","Viper"];
+// console.log(cars.fill(78))
+
+
+
+
+// ***********MultiDimensional Array***********
+
+
+
+// let b = [[5000,5.5],
+//         [6000,3.5],
+//         [4500,6.5],
+//         [9000,9.5],
+//         [3000,8.5]
+// ];
+
+// for(i=0; i < b.length; i++ ){
+//     document.write(b[i][0] + "<br>")
+//     console.log(b[i][0])
+
+// }
+
+
+
+
+
+
+
+// let products = [
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71KER-Giw5L._AC_UY218_.jpg","Audionic Headphone","SteelSeries New Arctis Nova 7X Wireless Multi-Platform Gaming & Mobile Headset — Nova Acoustic System — Simultaneous Wireless 2.4GHz + Bluetooth — 38Hr Battery — USB-C —",5.5,5000],["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51--TfLUpEL._AC_UY218_.jpg","Razor Headphone","SteelSeries New Arctis Nova 7X Wireless Multi-Platform Gaming & Mobile Headset — Nova Acoustic System — Simultaneous Wireless 2.4GHz + Bluetooth — 38Hr Battery — USB-C —",4.5,4500],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81SvodUkcuL._AC_UY218_.jpg","Samsung Headphone","SteelSeries New Arctis Nova 7X Wireless Multi-Platform Gaming & Mobile Headset — Nova Acoustic System — Simultaneous Wireless 2.4GHz + Bluetooth — 38Hr Battery — USB-C —",7.5,3500],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81MztoQMa8L._AC_UY218_.jpg","Apple Headphone","SteelSeries New Arctis Nova 7X Wireless Multi-Platform Gaming & Mobile Headset — Nova Acoustic System — Simultaneous Wireless 2.4GHz + Bluetooth — 38Hr Battery — USB-C —",9.5,8500]
+// ];
+
+// document.write(`<img src='${products[0][0]}'> <h1>${products[0][1]}</h1> <h3>${products[0][2]}</h3> <div>${products[0][3]}</div> <div>${products[0][4]}</div>`)
+
+// for(i=0; i < products.length; i++ ){
+//     document.write( products +  "<br>")
+
+// }
+
+
+
+
+
+
+
